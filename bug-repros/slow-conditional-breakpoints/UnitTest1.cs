@@ -31,10 +31,11 @@ public class Tests
             {
                 Console.WriteLine("Test");
             }
-            // On a i7-4770K @ 3.5GGHz I get the following results for the time taken
+            // On a PC with a i7-4770K @ 3.50GHz processor I get the following results for the time taken
             // 1. ~ 0.1ms
             // 2. ~1 s
             // 3. ~3 minutes
+            // ie the result for 3 being ~2 orders of magnitude slower than 2, and 2 ~4 orders of magnitude slower than 1
         }
     }
 }
