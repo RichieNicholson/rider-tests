@@ -31,7 +31,7 @@ public class Tests
             {
                 Console.WriteLine("Test");
             }
-            // On a i7-4770K @ 3.5GGHz Windows computer I get the following results for the time taken for these 3 scenarios:
+            // On a Windows PR with a i7-4770K @ 3.50GHz processor, I get the following results for the time taken for these 3 scenarios:
             // 1. < 0.1ms
             // 2. < 0.1ms
             // 3. ~3 minutes
