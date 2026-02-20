@@ -25,17 +25,17 @@ public class Tests
 
             // Try the following and in each case check the "Time taken to reach this point: " output:
             // 1. Run this test without any breakpoints.
-            // 2. Put a regular breakpoint on the "if (tmp == 99999)" line below 
-            // 3. Finally change the breakpoint for a conditional breakpoint on (i == 24601)
+            // 2. Put a regular breakpoint on the "Console.WriteLine" line below 
+            // 3. Finally put a conditional breakpoint of (i == 24601) on the 'if (i == 99999)' line below
             if (i == 99999)
             {
                 Console.WriteLine("Test");
             }
-            // On a PC with a i7-4770K @ 3.50GHz processor I get the following results for the time taken
-            // 1. ~ 0.1ms
-            // 2. ~1 s
+            // I get the following results for the "Time taken to reach this point: " time for these 3 scenarios:
+            // 1. < 0.1ms
+            // 2. < 0.1ms
             // 3. ~3 minutes
-            // ie the result for 3 being ~2 orders of magnitude slower than 2, and 2 ~4 orders of magnitude slower than 1
+            // This is on a Windows PC with a i7-4770K @ 3.50GHz processor, with .NET10 installed and using Jetbrains Rider 2025.3.3
         }
     }
 }
