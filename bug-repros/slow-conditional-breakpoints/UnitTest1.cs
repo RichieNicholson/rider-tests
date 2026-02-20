@@ -31,10 +31,11 @@ public class Tests
             {
                 Console.WriteLine("Test");
             }
-            // On a Windows PR with a i7-4770K @ 3.50GHz processor, I get the following results for the "Time taken to reach this point: " time for these 3 scenarios:
+            // I get the following results for the "Time taken to reach this point: " time for these 3 scenarios:
             // 1. < 0.1ms
             // 2. < 0.1ms
             // 3. ~3 minutes
+            // This is on a Windows PC with a i7-4770K @ 3.50GHz processor, with .NET10 installed and using Jetbrains Rider 2025.3.3
         }
     }
 }
